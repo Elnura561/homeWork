@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4.11-css">
+</head>
+<body>
+    <h1>operators and expressions</h1>
+   <script>
+    let a= 10, b=10,c=7;
+    let isStudent = true;
+    let isAlumnt = true;
+    console.log(!isStudent);//false
+    if(!isStudent || !isAlumnt){
+        console.log("мектеп кабыргасына кире алады!");
+       }   else if(!isAlumnt || !isStudent){
+        console.log('метеп кабыргасына кире алмайсын');
+        
+
+        }
+    //== тен салыстыру
+    console.log(a==b); //true -бурыс
+
+    // ===(тен)салыстыру
+
+    console.log(a===b);//true
+
+    // !=(тен емес)
+    console.log(a!=b); // false
+
+    // > улкен
+    console.log(a >b) //false
+
+    // < киши
+    console.log(a<b);//false
+
+    //>=улкен немесе тен
+    console.log(a>=b);//true 10=10 боп тур
+
+    // <=киши немесе тен
+    console.log(a<=b);//true 10=10 боп тур
+
+    let age=20  
+    if(age>=18){
+        console.log('сизге кируге болады');
+}else{
+    console.log('сизге кируге тыйым салынады');
+    
+}
+//&& жане 1 кате болса false
+console.log((a> b) && ( c<a));//false 10>10 && 7<10 
+
+// || немесе true 1 болса кайтарады
+console.log((a>b) || (c<a));//true 10>10|| 7<10
+let isVip = false;
+let hasTicket =true;
+
+if((age>=18 && hasTicket) ||isVip){
+    console.log('сиз кешке кире аласыз');    
+    
+}else{
+    console.log('сизге кешке кируге тыйым салынады');
+    
+}
+
+    
+    </script> 
+</body>
+</html>
