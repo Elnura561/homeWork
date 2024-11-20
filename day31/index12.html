@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     //function такырыбы ------
+    //     function hello (habarlama, san){
+    //         alert(`${habarlama} \n ${san}`);
+            
+    //     }
+       
+    //     //hello('hello students!',5);
+    //    let bolu =kosu(10,5)/azaitu(7,3)//4 kaitarady
+    //     alert(bolu);
+
+    //     let cbadrat =function (san){
+    //     return san * san
+    // }
+    //  alert(cbadrat(5))
+    //kate
+
+ 
+// let name =prompt('atynizdi jaz');
+// let salemSalu = function(esimi){
+//     return `Salem berdik ${esimi}!`
+// }
+// alert(salemSalu(name))
+
+// let san1 = +prompt('1san jaz')
+// let san2= +prompt('2san jaz')
+// let san3 = +prompt('3san jaz')
+
+//  function kobeity( num1, num2, num3){
+//     return num1*num2 *num3 
+
+// }
+// alert(kobeity(san1,san2,san3));esep-----
+
+
+// let san = +prompt('san engiz');
+// function factorial(san){
+//     if(san<0){
+//         alert('0 tomen ,siz 0 ulken san engiz!')
+//     }else if(san==0 || san ==1){
+//         return 1;
+//     }else{
+//         let i =2;
+//         let factorial=1;
+//         while(i<=san){
+//             factorial=factorial * i;
+//             i++;
+
+//         }
+//         return factorial;
+//     }
+
+
+// }
+// alert(factorial(san))
+
+
+// let sen=prompt('soz engiz1') .toLowerCase();
+// let seni =prompt('soz engiiz2').toLowerCase();
+   
+//     function compareWords(){
+     
+       
+//         if(sen==seni){
+//             alert('sozder bisdei')
+           
+
+//         }else{
+//             alert('sozder arturli')
+            
+//         }
+
+//     }
+//     compareWords(sen, seni);
+
+
+
+//19.11.2024 class  Functions Continued----
+
+//айнымалыга тенестиру
+//let qosuAmaly=qosu(3,4)
+
+// function qosu(san1,san2){
+//     return san1+san2;
+// }
+
+// let kobeituAmaly= multiply(qosu(12,5),9)//arrow function
+
+// // function multiply(san1,san2){
+// //     return san1 *san2;
+// // }
+
+// alert('kobeitu Amaly ='+ kobeituAmaly);
+
+
+//тапсырма-1-----
+// const qosu = (san1 ,san2)=>san1+san2;
+// const bolu =(san1,san2)=> san1/san2;
+// const azaity=(san1,san2)=> san1 - san2;
+// const multiply =(qosu,azaity,bolu)=>qosu *azaity* bolu;
+// let kobeituAmaly= multiply(qosu(3,4),azaity(7,3),bolu(4,1))//озинен кейн гана шакырады
+// alert('Kobeitu chigar=' + kobeituAmaly)
+
+//тапсырма-2----ен улкен сан табу
+// let num1= +prompt('san1 jaz');
+// let num2 =+prompt('san2 jaz');
+// let num3 =+prompt('san3 jaz');
+
+// function numberMax(num1,num2,num3){ 
+//     let max;
+//     if(num1>=num2 && num1>=num3){
+//         max =num1;
+//     }else if(num2>=num1 && num2>=num3){
+//         max= num2;
+//     }else if(num3>=num1 && num3>=num1){
+//         max= num3;
+//     }else{
+//         alert('siz ne text,ne qaita terinez')
+       
+//     }
+//     return max;
+// }
+// alert(numberMax(num1,num2,num3));
+
+//тапсырма -----абменник
+
+// function baluta(){
+
+//     let san= +prompt('Akcha summasy');
+//     let san1= +prompt('baluta ter:\n dollar\n euro \n rubel');
+
+//     if(dollar){
+//         alert('dollar='+494.44 * san)
+//     }else if(san1==euro){
+//         alert('euro='+524.11 * san);
+//     }else if(san1==rubel){
+//         alert('rubel='+60 * san);
+        
+//     }
+// }
+// baluta();
+
+// hw-20.1.2024   тилди тандау---
+
+
+function kz(){
+    alert('Салем!Калайсын?')
+}
+function ru(){
+    alert( 'Привет! Как дела?');
+}
+function en(){
+    alert( 'Hello! How are you?')
+}
+function language(){
+    let name =prompt('student name ');
+let lang =prompt('tildi tadaniz :\n1-kazak\n2-russian\n3-english')
+    if(lang==1){
+        kz();
+    }else if(lang==2){
+        ru();
+    }else if(lang==3){
+        en();
+    }else{
+        alert('kate terdiniz')
+    }
+}
+
+language( );
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+       
+    </script>
+</body>
+</html>
